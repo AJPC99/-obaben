@@ -10,7 +10,6 @@
 class MapDrawer : public MapInterpreter
 {
 private:
-	int turnDelay;
 	std::vector<std::unique_ptr<Person>> people;
 	sf::RenderWindow window;
 	sf::Texture texture;
